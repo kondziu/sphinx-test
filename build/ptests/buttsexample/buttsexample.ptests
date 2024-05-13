@@ -1,0 +1,20 @@
+COMMENT: This EXECNOW corresponds to command:
+COMMENT:
+COMMENT:    ls -la
+COMMENT:
+COMMENT: Located in the documentation at location:
+COMMENT:
+COMMENT:    index2.md:14
+COMMENT:
+EXECNOW: LOG index2.md/buttsexample/xxxbutts1.log bash "build/ptests/buttsexample/xxxbutts1.sh" 1> index2.md/buttsexample/xxxbutts1.log 2> index2.md/buttsexample/xxxbutts1.log
+
+COMMENT: This EXECNOW corresponds to command:
+COMMENT:
+COMMENT:    ls -la
+COMMENT:
+COMMENT: Located in the documentation at location:
+COMMENT:
+COMMENT:    index2.md:25
+COMMENT:
+EXECNOW: LOG index2.md/buttsexample/xxxbutts2.log bash "build/ptests/buttsexample/xxxbutts2.sh" 1> index2.md/buttsexample/xxxbutts2.log 2> index2.md/buttsexample/xxxbutts2.log
+
