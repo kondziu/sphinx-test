@@ -3,7 +3,7 @@
 # This file is part of an automatically-generated executable ptests example
 # found at location: 
 #
-#    index2.md:25
+#    index.md:25
 #
 # To edit this file, update the example in the documentation (and the
 # surrounding text). To re-generate the file, run:
@@ -12,8 +12,8 @@
 #
 # The script is a part of the following PTESTS files:
 #
-#    index2.md/buttsexample/xxxbutts2.ptests   
-#    index2.md/buttsexample/xxxbutts2.oracle   
+#    index.md/my-example-1/my-snippet-1.ptests   
+#    index.md/my-example-1/my-snippet-1.oracle   
 #  
 
-ls -la
+cat "example.json"

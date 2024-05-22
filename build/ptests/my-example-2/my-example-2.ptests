@@ -1,0 +1,20 @@
+COMMENT: This EXECNOW corresponds to command:
+COMMENT:
+COMMENT:    cat "example.c"
+COMMENT:
+COMMENT: Located in the documentation at location:
+COMMENT:
+COMMENT:    examples.md:10
+COMMENT:
+EXECNOW: LOG examples.md/my-example-2/my-snippet-2.log bash "build/ptests/my-example-2/my-snippet-2.sh" 2> examples.md/my-example-2/my-snippet-2.log 1> examples.md/my-example-2/my-snippet-2.log
+
+COMMENT: This EXECNOW corresponds to command:
+COMMENT:
+COMMENT:    gcc "example.c" && a.out
+COMMENT:
+COMMENT: Located in the documentation at location:
+COMMENT:
+COMMENT:    examples.md:20
+COMMENT:
+EXECNOW: LOG examples.md/my-example-2/my-snippet-2.log bash "build/ptests/my-example-2/my-snippet-2.sh" 2> examples.md/my-example-2/my-snippet-2.log 1> examples.md/my-example-2/my-snippet-2.log
+

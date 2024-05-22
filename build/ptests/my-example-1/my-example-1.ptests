@@ -1,0 +1,30 @@
+COMMENT: This EXECNOW corresponds to command:
+COMMENT:
+COMMENT:    cat "example.json"
+COMMENT:
+COMMENT: Located in the documentation at location:
+COMMENT:
+COMMENT:    index.md:25
+COMMENT:
+EXECNOW: LOG index.md/my-example-1/my-snippet-1.log bash "build/ptests/my-example-1/my-snippet-1.sh" 2> index.md/my-example-1/my-snippet-1.log 1> index.md/my-example-1/my-snippet-1.log
+
+COMMENT: This EXECNOW corresponds to command:
+COMMENT:
+COMMENT:    git status
+COMMENT:
+COMMENT: Located in the documentation at location:
+COMMENT:
+COMMENT:    index.md:50
+COMMENT:
+EXECNOW: LOG index.md/my-example-1/my-snippet-2.log bash "build/ptests/my-example-1/my-snippet-2.sh" 2> index.md/my-example-1/my-snippet-2.log 1> index.md/my-example-1/my-snippet-2.log
+
+COMMENT: This EXECNOW corresponds to command:
+COMMENT:
+COMMENT:    git status
+COMMENT:
+COMMENT: Located in the documentation at location:
+COMMENT:
+COMMENT:    index.md:73
+COMMENT:
+EXECNOW: LOG index.md/my-example-1/my-snippet-2.log bash "build/ptests/my-example-1/my-snippet-2.sh" 2> index.md/my-example-1/my-snippet-2.log 1> index.md/my-example-1/my-snippet-2.log
+

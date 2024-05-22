@@ -3,22 +3,17 @@
 # This file is part of an automatically-generated executable ptests example
 # found at location: 
 #
-#    index.rst:10
+#    index.md:73
 #
 # To edit this file, update the example in the documentation (and the
 # surrounding text). To re-generate the file, run:
 #
 #    make clean ptests
 #
-# The command executed by the script differs from the command displayed in the
-# documentation. The command displayed in the documentation is:
-#
-#    ls -la
-#
 # The script is a part of the following PTESTS files:
 #
-#    index.rst/btt/xxxbutts.ptests   
-#    index.rst/btt/xxxbutts.oracle   
+#    index.md/my-example-1/my-snippet-2.ptests   
+#    index.md/my-example-1/my-snippet-2.oracle   
 #  
 
-ls -la "."
+git status

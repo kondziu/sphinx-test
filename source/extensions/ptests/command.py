@@ -64,7 +64,7 @@ class Command(sphinx.util.docutils.SphinxDirective):
         return self.options.get('language')
 
     def _has_output_block(self) -> bool:
-        return option_is_true(self.options, 'show-output')
+        return utils.option_is_true(self.options, 'show-output')
 
     def _relative_path(self):
         return self.env.doc2path(self.env.docname, base=False) # Path relative to conf.py
@@ -76,10 +76,10 @@ class Command(sphinx.util.docutils.SphinxDirective):
         return self._check_and_get('example')
 
     def _capture_stdout(self):
-        return option_is_true(self.options, 'capture-stdout')
+        return utils.option_is_true(self.options, 'capture-stdout')
     
     def _capture_stderr(self):
-        return option_is_true(self.options, 'capture-stderr')
+        return utils.option_is_true(self.options, 'capture-stderr')
 
     def _filter(self):
         return self.options.get('filter')
@@ -168,9 +168,9 @@ class command(docutils.nodes.General, docutils.nodes.Element):
         ]
 
         props = [
-            ('example', self.example)
-            ('capture-stderr', self.capture_stderr)
-            ('capture-stdout', self.capture_stdout)
+            ('example', self.example),
+            ('capture-stderr', self.capture_stderr),
+            ('capture-stdout', self.capture_stdout),
             ('filter', self.filter)
         ]
         displayed_props = [ f'{name}="{utils.quoted(prop)}"' for (name, prop) in props if prop != None ]

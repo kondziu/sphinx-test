@@ -3,7 +3,7 @@
 # This file is part of an automatically-generated executable ptests example
 # found at location: 
 #
-#    index2.md:14
+#    examples.md:20
 #
 # To edit this file, update the example in the documentation (and the
 # surrounding text). To re-generate the file, run:
@@ -12,8 +12,8 @@
 #
 # The script is a part of the following PTESTS files:
 #
-#    index2.md/buttsexample/xxxbutts1.ptests   
-#    index2.md/buttsexample/xxxbutts1.oracle   
+#    examples.md/my-example-2/my-snippet-2.ptests   
+#    examples.md/my-example-2/my-snippet-2.oracle   
 #  
 
-ls -la
+gcc "example.c" && a.out
